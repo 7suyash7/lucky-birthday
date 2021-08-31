@@ -1,0 +1,100 @@
+:root {
+    --background-dark: purple;
+    --black: #000;
+  }
+  
+  html {
+    background-color: var(--background-dark);
+    color: var(--black);
+    height: 100%;
+  }
+  
+  * {
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+  }
+  
+  .header {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .container {
+    width: 300px;
+    margin: auto auto;
+  }
+  
+  input {
+    display: block;
+    margin-top: 0.5rem;
+    width: 10rem;
+  }
+  
+  label {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  input {
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    
+    font-size: large;
+    margin: 2rem ;
+  }
+  
+  #calculate-number {
+	background-color: purple;
+	border-radius:28px;
+	border:1px solid black;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px white;
+}
+#calculate-number:hover {
+	background-color: palevioletred;
+}
+#calculate-number:active {
+	position:relative;
+	top:1px;
+}
+  
+  #output-container {
+  
+    text-align: center;
+    padding: 1rem;
+    font-size: large;
+    border-color: var(--black);
+    margin-top: 2rem;
+    
+  }
+  
+  
+  .footer {
+    text-align: left black;
+    text-decoration: var(--black);
+    margin-top: 6rem;
+  }
+  
+  .footer p {
+    font-size: large black;
+    text-align: left;
+  }
+  
+  .footer-list {
+    margin: 1rem;
+  }
+  
+
+  .links {
+     color: black;
+  }
+  
+  
+  
+  
+ 
