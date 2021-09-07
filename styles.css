@@ -23,6 +23,19 @@
     margin: auto auto;
   }
   
+  #date-of-birth {
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  #lucky-number {
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+  }
+
   input {
     display: block;
     margin-top: 0.5rem;
@@ -37,9 +50,9 @@
   input {
     border-radius: 0.5rem;
     padding: 0.5rem;
-    
     font-size: large;
     margin: 2rem ;
+    
   }
   
   #calculate-number {
@@ -54,6 +67,9 @@
 	padding:16px 31px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px white;
+  display: block;
+  margin: auto;
+  margin-top: 3rem;
 }
 #calculate-number:hover {
 	background-color: palevioletred;
@@ -70,6 +86,7 @@
     font-size: large;
     border-color: var(--black);
     margin-top: 2rem;
+    font-size: x-large;
     
   }
   
